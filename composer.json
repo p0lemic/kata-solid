@@ -1,0 +1,22 @@
+{
+  "name": "kata/php",
+  "description": "Shell project for PHP testing",
+  "license": "MIT",
+  "require": {
+    "php": "^8.3"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^10"
+  },
+  "autoload": {
+    "psr-4": {
+      "Kata\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Test\\": "tests/"
+    }
+  },
+  "minimum-stability": "stable"
+}

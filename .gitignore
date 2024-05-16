@@ -1,0 +1,14 @@
+/vendor/
+
+.composer
+.idea
+*.iml
+.cache
+.bash_history
+.env
+.php-version
+
+###> phpunit/phpunit ###
+/phpunit.xml
+.phpunit.result.cache
+###< phpunit/phpunit ###
